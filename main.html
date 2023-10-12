@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://images.pexels.com/photos/4587979/pexels-photo-4587979.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200" class="brand_logo" alt="Logo">
+    </div>
+    <h2 id="formTitle">Login</h2>
+    <form id="loginForm">
+      <label for="username">User</label>
+      <input type="text" id="username" required>
+      <label for="password">Password</label>
+      <div class="password-wrapper">
+        <input type="password" id="password" required>
+        <span class="password-toggle"><i id="togglePassword" class="bi bi-eye-slash"></i></span>
+      </div>
+      <button type="submit" id="loginButton" disabled>Login</button>
+        </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
